@@ -1,0 +1,55 @@
+/* Mobile and tableat */
+@media (max-width: 767px){
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+        max-height: none;
+    }
+
+    .team .card{
+        min-height: auto;
+        padding-bottom: 50px;
+    }
+
+    .contactUs textarea{
+        margin-top: 15px;
+    }
+
+    .subscribeDiv input{
+        margin-bottom: 20px;
+        width: 80%;
+    }
+
+    .subscribeDiv button{
+        margin-bottom: 50px;
+        width: 100px;
+    }
+
+    #services h1, .testimonials h1 {
+        font-size: 26pt;
+        margin-bottom: 10px;
+    }
+
+    .leftSvg , .rightSvg{
+        opacity: 0.3;
+    }
+}
+
+
+/* Small screens, laptops */
+@media (min-width:768px) and (max-width:991px){
+    .contactUs textarea{
+        margin-top: 15px;
+    }
+}
+
+
+
+/* mediaum secreen */
+@media (min-width:992px) and( max-width:1199px){
+
+}
+
+
+/* larg secreen */
+@media (min-width:1200px){
+
+}

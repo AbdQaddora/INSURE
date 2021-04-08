@@ -1,0 +1,348 @@
+body{
+    padding-top: 50px;
+}
+
+h1 , h2 , h3 , h4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.leftSvg{
+    position: absolute;
+    top:830px;
+}
+
+.responsevImge{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+button .fa{
+    position: relative;
+    top: 1px;
+    font-size:20px ;
+}
+/******Start over raid botstrap*********/
+/*brand Style*/
+.lead{
+    line-height: 1.5em;
+}
+
+.navbar {
+    border: none;
+}
+.navbar-default .navbar-brand {
+    color: #2b282f;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*navbar-toggle*/
+.navbar-default .navbar-toggle:hover{
+    background-color: #2b282f;
+}
+.navbar-default .navbar-toggle:hover .icon-bar{
+    background-color: white;
+}
+/*End navbar-toggle*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus , .navbar-default .navbar-brand:hover{
+    background-color: #2b282f;
+    color: white;
+    transition: all 0.3s ease-in-out ;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #2b282f; 
+    font-size: 16px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    background-color: #EEE;
+}
+
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+    background-color: #2b282f;
+    color: white;
+    padding-left:30px ;
+    transition: 0.3s padding ease;
+}
+
+.dropdown-menu{
+    box-shadow: 0 6px 5px #2b282f48;
+    min-width: 230px;
+    border-top: 2px solid #55288f;
+}
+
+.dropdown-menu .divider{
+    background-color: #55288f;
+    height: 2px;
+}
+
+/*carousel*/
+.item{
+    max-height: 600px;
+    object-fit: contain;
+}
+
+.carousel-caption{
+    bottom: 230px;
+}
+
+.carousel-caption h1{
+    font-size: 40pt;
+    font-weight: bold;
+    text-shadow:  0 6px 12px #000000;
+}
+
+/*About Section*/
+#About .container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#About .container h1{
+    font-weight: bold;
+    color: #2b282f;
+    padding-bottom: 30px;
+}
+
+#About .container h1 span{
+    color:white;
+    background-color: #2b282f;
+    padding: 5px 10px;
+}
+
+/*service section*/
+#services{
+    padding: 50px 0px;
+    margin-top: 80px;
+}
+
+#services h1 ,.testimonials h1{
+    border-bottom: solid 2px #2b282fa1;
+    color: #2b282f;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 40pt;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+}
+
+.testimonials h1{
+    border:none ;
+}
+.service{ margin-bottom: 50px;}
+
+.service .glyphicon{
+    background-color: #2b282f;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.service h3{
+    padding-bottom: 20px;
+    color: #2b282f;
+}
+
+.service .lead{
+    color: #555;
+}
+
+#rightSvg{
+    position: absolute;
+    right: 0;
+    top: 1450px;
+}
+/*testimonials*/
+/*avatar*/
+.avatar{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+#tammara{background-image: url(../image/tamara.jpg);}
+#amir{background-image: url(../image/amir.jpg);}
+#joanna{background-image: url(../image/joanna.jpg);}
+#jonathan{background-image: url(../image/jonathan.jpg);}
+#karla{background-image: url(../image/karla.jpg);}
+
+.testimonials{
+    background-color: #EEE;
+    padding: 70PX 0PX;
+    overflow: visible;
+}
+
+.testimonials .lead{
+    line-height: 2em;
+    font-size: 21px;
+    padding-top: 20px;
+}
+
+.testimonials .name{
+    color: #2b282f;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fa{
+    font-size: 35px;
+    color: #411f6d;
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+
+.fa-quote-left{
+    position: relative;
+    top: 0px;
+    left: -5px;
+}
+
+.team{ 
+    margin-top: 120px;
+}
+
+.team .card{
+    background-color: #EEE;
+    margin-bottom: 20px;
+    min-height: 650px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.team .avatar{
+    width: 250px;
+    height: 250px;
+    margin: 50px 0px 20px;
+    transition: 0.7s ease;
+}
+
+
+.team h2{
+    color: #2b282f;
+    font-weight: bold;
+
+}
+
+.team .lead{
+    line-height: 1.5em;
+    max-width: 88%;
+    margin: 20px auto;
+    position: relative;
+}
+.card:hover >.avatar{
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 50px 10px rgba(43,40,47,0.28); 
+    box-shadow: 0px 0px 50px 10px rgba(43,40,47,0.28);
+}
+
+.statistics{
+    background: url(../image/background.jpg);
+    background-attachment: fixed;
+    margin: 70px 0px;
+    background-size: cover;
+    min-height: 450px;
+}
+
+#shading{
+    background-color: #2b282fb0;
+    min-height: 450px;
+}
+
+.data{
+    margin: 100px;
+    color: #DDD;
+}
+
+
+.data .fa{
+    color: #DDD;
+    font-size: 100px;
+    transition: 0.3s ease-in-out all;
+
+}
+
+.data p{
+    margin: 40px 0px 0px;
+    font-size: 22pt;
+}
+
+.data:hover .fa{color: white; font-size: 120px;}
+.data:hover{color: white;}
+
+/* Start Section Subscribe */
+.subscribeDiv input{
+    width: 450px;
+    height: 34px;
+    display: inline-block;
+    margin-bottom: 70px;
+}
+
+.subscribeDiv button{
+    margin: 0px;
+    position: relative;
+    left: -15px;
+    top: -1px;
+}
+.subscribeDiv h1{
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #2b282f;
+}
+/* End Section Subscribe */
+
+/* Start Section Contuct us */
+.contactUs{
+    background-image: url(../image/contactBack.jpg);
+    min-height:450px;
+}
+
+.BlackShading{
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 450px;
+    padding-bottom:100px;
+}
+
+.contactUs .fa{
+    color:white;
+    margin: 0px;
+}
+.contactUs .fa-headphones{
+    margin-top: 30px;
+    font-size: 100px;
+    font-weight: lighter;
+}
+.contactUs h1{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.contactUs input , .contactUs textarea{
+    background-color: rgba(85, 80, 80, 0.9);
+    border: 0px;
+    color: white;
+}
+
+.contactUs textarea{
+    margin-bottom: 15px;
+    height: 106px;
+}
+/* End Section Contuct us */
+
+/* Start Section footer */
+.footer{
+    background-color: #2b282f;
+    color: white;
+    margin: 0px;
+    padding:1px;
+}
+/* End Section footer */
